@@ -1,0 +1,175 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+
+/* top block */
+
+.navyblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    margin: 0%;
+}
+
+
+/* top bar */
+
+.header {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+
+/* logo */
+
+.logo {
+    margin: 12px;
+}
+
+
+
+
+
+/* links*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-weight: 800;
+}
+
+.links {
+    font-size: 18px;
+}
+
+/* title */
+
+.blockone {
+    display: flex;
+    gap: 20px;
+}
+
+.blockone img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.titletxt {
+    color: white;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 4px;
+}
+
+.titletxt p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.buttonone {
+    background-color: #ec5800;
+    font-weight: 800;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+/* block two */
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+.blocktwo {
+
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.info {
+    max-width: 300px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding-bottom: 42px;
+}
+
+/* block three */
+
+.greyblock {
+    background-color: grey;
+    text-align: center;
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px;
+}
+
+/* button block */
+
+.bottomblock {
+    display: flex;
+    justify-content: center;
+}
+
+.colorblock {
+    background-color: #ec5800;
+    color: white;
+    padding: 48px 100px 48px 100px;
+    border-radius: 24px;
+    margin: 70px;
+}
+
+.maincolor {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.buttontwo {
+    padding: 8px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 24px;
+}
+
+
